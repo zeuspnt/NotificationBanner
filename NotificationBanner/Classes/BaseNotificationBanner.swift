@@ -213,7 +213,7 @@ public class BaseNotificationBanner: UIView {
                      bannerPosition: BannerPosition = .top,
                      on viewController: UIViewController? = nil) {
         parentViewController = viewController
-        show(placeOnQueue: false, queuePosition: queuePosition, bannerPosition: bannerPosition)
+        show(placeOnQueue: true, queuePosition: queuePosition, bannerPosition: bannerPosition)
     }
     
     /**
